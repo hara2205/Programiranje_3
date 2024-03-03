@@ -51,6 +51,9 @@ namespace FIT.WinForms.ispit
                     btnGenerisi.Enabled = false;
                 }
             }
+            else{
+            lblKapacitet.Text = "0/" + obj.Kapacitet.ToString();
+            }
         }
 
         private void ucitajStudenta()
